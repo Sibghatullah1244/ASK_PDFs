@@ -6,9 +6,7 @@ streamlit
 faiss-cpu
 altair
 tiktoken
-uncomment to use huggingface llms
 huggingface-hub==0.14.1
-uncomment to use instructor embeddings
 InstructorEmbedding
 sentence-transformers
 HuggingFaceEmbeddings
