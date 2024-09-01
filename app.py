@@ -13,8 +13,8 @@ from langchain_groq import ChatGroq
 from langchain.embeddings import HuggingFaceEmbeddings
 
 ## load the Groq API key
-os.environ["HUGGINGFACEHUB_API_TOKEN"]="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"
-groq_api_key=os.environ['GROQ_API_KEY']='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'
+hf_token = os.getenv("HF_TOKEN")
+grok_token = os.getenv("GROK_KEY")
 
 model_name = "sentence-transformers/all-MiniLM-L6-v2"
 
